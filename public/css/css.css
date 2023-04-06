@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+
+    
+h1{
+    font-size: 2.3rem;
+}
+p h2{
+    line-height: 2;
+}
+.elen{
+    width: 60%;
+    padding: 0 30px 0 0;
+    margin: 8% 35% 5% auto;
+    text-align: left;
+    display: inline-block;
+    color: white;
+
+}
+.imagee{
+    width: 27%;
+    height: 27%;
+    border-radius: 100%;
+    float: left;
+    margin: 0 5% 0 0;
+    
+    
+
+}
+
+.imagea{
+    width: 27%;
+    height: 27%;
+    border-radius: 100%;
+    float: left;
+    margin: 0 5% 0 0;
+    
+    
+
+}
+
+.elene{
+    line-height: 2;
+    margin: 0% 5% 6% 0;
+    padding: 3% 0 0 0 ;
+    
+  
+}
+.imageea{
+    width: 27%;
+    height: 27%;
+    border-radius: 100%;
+    float: left;
+    margin: 0 5% 0 0;
+
+}
+.elena{
+    line-height: 2;
+    margin: 0% 6% 4% 0;
+    padding: 0 0 0 0 ;
+    
+  
+}
+.sli{
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
+.todo{
+    border-radius: 20px;
+    margin: 100px;
+    width: 40%;
+    height: 40%;
+
+}
+.buddy{
+    margin: 5% 0 0 0;
+    color: ghostwhite;
+    background-color: black;
+    
+    
+}
+.last{
+    margin: 3%;
+    text-align: left;
+    font-style: bold;
+    color: black;
+}
+.helpme{
+    margin : 5% 2% 0 0;
+}
+.contactt{
+    background-color: black;
+    padding: 0 0 5% 5%;
+    margin: 0;
+}
+.lasto{
+    margin: 0 0;
+    padding: 5% 0;
+    width: 100% ;
+    height: 20% ;
+    background-color: blanchedalmond;
+
+}
