@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+<style>
+    p{
+      font-size: 2vw;
+    }
+  </style>
+  <%data.forEach(data => {%> 
+  <div>
+    <p>review : <%=data.review%></p><br>
+    <p>rating : <%=data.rating%></p><br>
+    <p>event : <%=data.event%> days</p><br>
+    <p>user : <%=data.user%></p><br>
+    <hr>
+  </div>
+  <% }) %>
+
+
+
+<h2></h2>
+<form action="/events/<%=eventid%>/reviews" method="post">
+    <input type="text" name="review" placeholder="review">
+    <input type="Number" name="rating" placeholder="rating">
+    <br>
+    <input type="text" name="event" placeholder="event">
+    <input type="text" name="user" placeholder="user">
+    <br>
+    <input type="submit">
+</form>
