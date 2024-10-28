@@ -1,7 +1,7 @@
 const app = require('./app')
 const server = require('http').createServer(app);
 const io = require("socket.io")(server,{cors: {origin:"*"}});
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3001
 /* app.listen(port , (req,res)=>{
 console.log('server started @ port ' + port)
 })

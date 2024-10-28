@@ -3,16 +3,16 @@ const sendEmails =async options =>{
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-          user: 'reversehack127.0.0.1@gmail.com',
-          pass: 'qpjekzgirinvzprc'
+          user: 'thevaincode@gmail.com',
+          pass: 'tifh kqvx qfzz msmn'
         }
       });
       console.log("inside mailer")
       const mailOptions = {
-        from: 'reversehack127.0.0.1@gmail.com',
+        from: 'thevaincode@gmail.com',
         to: options.email,
-        subject: options.subject,
-        html: `<h1 style="color : red;">Welcome the game</h1>  <p>The password for the game is huge </p><br><p>Well you are the nd partcipant . </p> `
+        subject : "Passoword reset",
+        html: `<h1 style="color : red;">The password reset link is :</h1>  <a href="${options.subject}"> ${options.subject}</a> `
       };
       console.log('shit it may be the reversehack')
      await transporter.sendMail(mailOptions)

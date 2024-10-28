@@ -26,7 +26,7 @@ exports.forgotcontrol = async(req,res)=>{
                 const resetToken = user.createpasswordresettoken();
                 await user.save({validateBeforeSave : false})
                 console.log(resetToken + "its from the auth route forgot password route")
-                const reseturl = `localhost:3000/user/resetpassword/${resetToken}`
+                const reseturl = `localhost:3001/user/resetpassword/${resetToken}`
                 console.log()
                 try{
                  await sendEmails({
